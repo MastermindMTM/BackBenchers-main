@@ -31,15 +31,16 @@ export default function Hero() {
       <div className="relative z-10 mx-auto max-w-5xl px-5 text-center">
         {/* Title */}
         <h1
-          className="font-display text-7xl leading-none tracking-wider text-gray-100 sm:text-8xl md:text-9xl lg:text-[11rem]"
+          className="font-display text-5xl leading-tight tracking-wider text-gray-100 sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem]"
           style={{ animation: 'fadeUp 0.8s ease-out 0.15s both' }}
         >
-          <span className="shimmer-text animate-shimmer">BACKBENCHERS</span>
+          <span className="shimmer-text animate-shimmer block sm:inline">BACK</span>
+          <span className="shimmer-text animate-shimmer block">BENCHERS</span>
         </h1>
 
         {/* Subtitle */}
         <p
-          className="mx-auto mt-6 max-w-2xl text-lg font-medium text-gray-400 sm:text-xl md:text-2xl"
+          className="mx-auto mt-6 max-w-2xl text-base font-medium text-gray-400 sm:text-lg md:text-xl"
           style={{ animation: 'fadeUp 0.8s ease-out 0.3s both' }}
         >
           First bencher create notes but 💥💥 <br /> Last benchers create memories 🔥🔥
